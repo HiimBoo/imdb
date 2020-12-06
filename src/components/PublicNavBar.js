@@ -19,7 +19,11 @@ const PublicNavbar = () => {
         </Nav.Link>
       </Nav>
       <Nav>
-        <a href="#your_github_repo_link" target="_blank">
+        <a
+          href="https://github.com/HiimBoo/imdb"
+          rel="noreferrer"
+          target="_blank"
+        >
           <img src={githubIco} alt="Github" width="32px" />
         </a>
       </Nav>

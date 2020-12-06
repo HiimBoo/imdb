@@ -49,7 +49,7 @@ const HomePage = () => {
         if (enter) {
           let temp = `search/movie` + url.slice(13) + `&query=${enter}`;
           url = temp;
-        } else if (searchInput === "") {
+        } else {
           url = `movie/popular?api_key=${API_KEY}&language=en-US&page=${pageNum}`;
         }
         const res = await api.get(url);
